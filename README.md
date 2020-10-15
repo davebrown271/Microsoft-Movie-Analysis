@@ -7,11 +7,15 @@
 
 ## Data Used
 
-list what data was found and how it was cleaned
+![graph8](./data/images/the-numbers-banner.png')
+The data for both the theater release and home movie distributers was obtained on the-numbers.com, which hosts a plethora of data related to the movie industry. The data was presented to us in the form of a table on an html page, which was parsed and extracted. To clean the data, any numbers were converted from strings to integers or floats as necessary.
+
+![graph9](./data/images/bomojo.png')
+The data for the movie types was found on Box Office Mojo, which was presented as a table on an html page with further links to additional information. These pages and tables were parsed, and the data extracted. To clean the data, any fields without data were labeled as "No Data". Any numbers were converted from strings to integers or floats as necessary.
 
 
 ## Methodology
-
+First, we examined the distributors' performance against other distributors for theatrical releases. Next, we looked at the same distributors performance for home movies. Lastly, we looked at the trends for the types of movies with which these top distributors were successful. 
 
 
 ## Data Exploration
@@ -64,19 +68,21 @@ We wanted to look at the top grossing movies, get some information about them, a
 For the top grossing movies, we opted for data that was not adjusted for inflation to capture the movies relevant to today.
 Our data was captured from a table from Box Office Mojo of the top 1000 grossing movies. Each row corresponded to a movie as well as a link to further data about that movie. 
 
-Next, we wrote a script to iterate through the rows, pull the additional data of genre tags and MPAA ratings, and then merge it with the original table pulled. 
+Next, we wrote a script to iterate through the rows, pull the additional data of genre tags and MPAA ratings, and then merged it with the original table pulled. 
 
 As with the previous recommendations, we decided to omit data from Walt Disney as an outlier.
 
 #### Genres
-One of the categories we captured was the genre tags for each movie. we tallied them for each distributor and made a plot to show the most popular genres each distributor buys. In the plot below, we showed the top 10 genres and highlighted the top 3 for each distributor. We chose a pie chart to hightlight that the top 3 genres comprised the majority of the tags. We also felt this convyed the data best. We did not think the absolute counts allowed the comparison between distributors as well as percentages. Further, since the top genres themselves were different for each distributer, we wanted to be able to easily find the top 3. 
+One of the categories we captured was the genre tags for each movie. We tallied them for each distributor and made a plot to show the most popular genres each distributor buys. In the plot below, we showed the top 10 genres and highlighted the top 3 for each distributor. We chose a pie chart to hightlight that the top 3 genres comprised the majority of the tags. We also felt this convyed the data best. We did not think the absolute counts allowed the comparison between distributors as well as the percentages. Further, since the top genres themselves were different for each distributer, we wanted to be able to easily find the top 3. 
 ![graph6](./data/images/genres_by_distributer.png)
 
 #### Recommendation
 Based on this data, we recommend producing an action and/or adventure movie. These two categories were universally popular for the successful movies across the top 3 distributors. Next, we recommend a comedy or drama. While these two genres were not the 3 most popular for the distributors, they were ranked somewhere in the top 4. 
 
 #### MPAA Ratings
-The next category we wanted to look at was the MPAA ratings. In the plot below we tallied the ratings for each distributor and made a plot to show the breakdown of the ratings. We chose a stacked bar chart since the same 4 ratings are used for all films and that it showed the comparison well.
+The next category we wanted to look at was the MPAA ratings. In the plot below we tallied the ratings for each distributor and made a plot to show the breakdown of the ratings. Any movies with no rating or an outdated rating of "approved" were dropped.
+
+We chose a stacked bar chart since the same 4 ratings are used for all films and that it showed the comparison well.
 ![graph7](./data/images/ratings_by_distributer.png)
 
 #### Recommendation
