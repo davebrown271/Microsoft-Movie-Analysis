@@ -7,10 +7,10 @@
 
 ## Data Used
 
-![graph8]('./data/images/the-numbers-banner.png')
+![graph8](./data/images/the-numbers-banner.png)
 The data for both the theater release and home movie distributers was obtained on the-numbers.com, which hosts a plethora of data related to the movie industry. The data was presented to us in the form of a table on an html page, which was parsed and extracted. To clean the data, any numbers were converted from strings to integers or floats as necessary.
 
-![graph9]('./data/images/bomojo.PNG')
+![graph9](./data/images/bomojo.PNG)
 The data for the movie types was found on Box Office Mojo, which was presented as a table on an html page with further links to additional information. These pages and tables were parsed, and the data extracted. To clean the data, any fields without data were labeled as "No Data". Any numbers were converted from strings to integers or floats as necessary.
 
 
