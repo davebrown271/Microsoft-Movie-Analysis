@@ -134,25 +134,14 @@ For any additional questions, please contact Dave Brown: davebrown271@gmail.com,
 ├── microsoft_movie_presentation.pdf       <- PDF version of project presentation
 
 ├── data                                   <- folder where all code exists
-
      ├── movie_data.ipynb                  <- master notebook
-     
      ├── market_share_table.ipynb          <- additional notebook used for visualizations
-     
      ├── home_distribution_charts.ipynb    <- additional notebook used for visualizations
-     
      ├── distribution_boxplot.ipynb        <- additional notebook used for visualizations
-     
      ├── cats_visualizations.ipynb         <- additional notebook used for visualizations
-     
      ├── cats_boxofficemojo_data.ipynb     <- additional notebook used for visualizations
-     
      ├── daves_data.pkl                    <- pkl file used to reconsruct the data
-     
      ├── cats_bomojo_data.pkl              <- pkl file used to reconsruct the data
-     
      ├── zipped_data                       <- folder where existing data was stored
-     
              ├── code_to_unzip_GZ.ipynb    <- notebook where existing data was unzipped
-             
      ├── images                            <- folder where data visualizations and graphics are located
