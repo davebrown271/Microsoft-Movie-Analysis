@@ -123,7 +123,7 @@ Based on this data, we recommend producing a PG-13 rated movie as this comprised
 In conclusion, we recommend that if Microsoft decides to do theatrical releases they use Universal, 20th Century Fox, or Paramount as their distribution company in order to make the best profit in theaters. Should they decide to do home distribution we also recommend the home distribution division of these companies but we also recomend Sony Pictures. For all of these distribution companies we recomend that they lean towards PG-13 movies. We also recommend that they make films in the following genres; Action/adventure, comedy, or drama. 
 
 ## For More Information
-Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./Microsoft Movie Presentation Slides.pdf).
 
 For any additional questions, please contact David Brown: davebrown271@gmail.com, Angela Joseph-Pauline: angelagjp@gmail.com, & Catherine Fritz: cmfritz0@gmail.com.
 
