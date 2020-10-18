@@ -129,21 +129,21 @@ For any additional questions, please contact Dave Brown: davebrown271@gmail.com,
 
 ## Repository Structure
 #### Main Page
-├── README.md                              <- The top-level README for reviewers of this project
-├── microsoft_movie_presentation.pdf       <- PDF version of project presentation
-├── data                                   <- folder where all code exists
+    ├── README.md                              <- The top-level README for reviewers of this project
+    ├── microsoft_movie_presentation.pdf       <- PDF version of project presentation
+    ├── data                                   <- folder where all code exists
 
 #### Data
-├── movie_data.ipynb                  <- master notebook
-├── market_share_table.ipynb          <- additional notebook used for visualizations
-├── home_distribution_charts.ipynb    <- additional notebook used for visualizations
-├── distribution_boxplot.ipynb        <- additional notebook used for visualizations
-├── cats_visualizations.ipynb         <- additional notebook used for visualizations
-├── cats_boxofficemojo_data.ipynb     <- additional notebook used for visualizations
-├── daves_data.pkl                    <- pkl file used to reconsruct the data
-├── cats_bomojo_data.pkl              <- pkl file used to reconsruct the data
-├── zipped_data                       <- folder where existing data was stored
-├── images                            <- folder where data visualizations and graphics are located
+    ├── movie_data.ipynb                  <- master notebook
+    ├── market_share_table.ipynb          <- additional notebook used for visualizations
+    ├── home_distribution_charts.ipynb    <- additional notebook used for visualizations
+    ├── distribution_boxplot.ipynb        <- additional notebook used for visualizations
+    ├── cats_visualizations.ipynb         <- additional notebook used for visualizations
+    ├── cats_boxofficemojo_data.ipynb     <- additional notebook used for visualizations
+    ├── daves_data.pkl                    <- pkl file used to reconsruct the data
+    ├── cats_bomojo_data.pkl              <- pkl file used to reconsruct the data
+    ├── images                            <- folder where data visualizations and graphics are located
+    ├── zipped_data                       <- folder where existing data was stored
 
 #### Zipped Data
-├── code_to_unzip_GZ.ipynb    <- notebook where existing data was unzipped
+    ├── code_to_unzip_GZ.ipynb    <- notebook where existing data was unzipped
