@@ -35,7 +35,7 @@ Please note, the Walt Disney Corporation was omitted from our findings because t
 The first 5 rows of the resulting table is found below. 
 ![graph10](./data/images/table1.PNG)
 
-Next, we looked at the same distributors' performance for home movies. We wanted to give Microsoft the oportunity to explore home distribution data. Microsoft might not want to commit to theatrical distribution leaving the home distribution market the perfect area to explore. We found a Data on The Numbers website that showed revenue from this market between 1995 and 2020. The Data was in the form of a chart that we webscraped for our use. 
+Next, we looked at the same distributors' performance for home movies. We wanted to give Microsoft the opportunity to explore home distribution data. Microsoft might not want to commit to theatrical distribution leaving the home distribution market the perfect area to explore. We found a Data on The Numbers website that showed revenue from this market between 1995 and 2020. The Data was in the form of a chart that we webscraped for our use. 
 
 Once we were able to apply this data we decided that we should compare the home distribution data with that of the theatrical box office sales. We attempted to find the best home distribution groups that have relatively similar returns. Even if Microsoft decided against theatrical distribution we wanted them to be happy with the profits they stand to make. 
 
