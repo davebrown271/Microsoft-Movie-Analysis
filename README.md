@@ -1,6 +1,6 @@
 # Microsoft Movie Analysis
 
-**Authors**: David Brown, Angela Joseph-Pauline, Catherine Fritz
+**Authors**: Dave Brown, Angela Joseph-Pauline, Catherine Fritz
 
 ## Problem
 
@@ -121,13 +121,10 @@ Based on this data, we recommend producing a PG-13 rated movie as this comprised
 In conclusion, we recommend that if Microsoft partners with Universal, 20th Century Fox, or Paramount as their distribution company in a theatrical release in order to maximize revenue. Should they decide to go straight to home distribution, we also recommend these companies, along with Sony Pictures. Finally, we found that PG-13 movies in the Action & Adventure genre were the preferred movie type of these firms.
 
 ## For More Information
-<<<<<<< HEAD
-Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./microsoft_movie_presentation.pdf).
-=======
-Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./Microsoft Movie Presentation Slides.pdf).
->>>>>>> edf61631f58bd6ce7e18536df3de4e32b3053102
 
-For any additional questions, please contact David Brown: davebrown271@gmail.com, Angela Joseph-Pauline: angelagjp@gmail.com, & Catherine Fritz: cmfritz0@gmail.com.
+Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./microsoft_movie_presentation.pdf).
+
+For any additional questions, please contact Dave Brown: davebrown271@gmail.com, Angela Joseph-Pauline: angelagjp@gmail.com, & Catherine Fritz: cmfritz0@gmail.com.
 
 
 ## Repository Structure
