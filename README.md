@@ -5,13 +5,14 @@
 ## Problem
 
 Mission:  Recommend distribution strategy and provide movie type guidance for new films from Microsoft Studios.
+
 Steps:
-Research for data and develop a plan.
-1. Clean the data
-2. Reorganize the data so that it can be analyzed
-3. Make determinations
-4. Use data visualizations to show findings
-5. Present recommendations
+1. Research for data and develop a plan.
+2. Clean the data
+3. Reorganize the data so that it can be analyzed
+4. Make determinations
+5. Use data visualizations to show findings
+6. Present recommendations
 
 ## Data Used
 
