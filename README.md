@@ -8,9 +8,11 @@
 ## Data Used
 
 ![graph8](./data/images/the-numbers-banner.png)
+
 The data for both the theater release and home movie distributers was obtained on the-numbers.com, which hosts a plethora of data related to the movie industry. The data was presented to us in the form of a table on an html page, which was parsed and extracted. To clean the data, any numbers were converted from strings to integers or floats as necessary.
 
 ![graph9](./data/images/bomojo.PNG)
+
 The data for the movie types was found on Box Office Mojo, which was presented as a table on an html page with further links to additional information. These pages and tables were parsed, and the data extracted. To clean the data, any fields without data were labeled as "No Data". Any numbers were converted from strings to integers or floats as necessary.
 
 
@@ -60,7 +62,7 @@ Once we were able to apply this data we decided that we should compare the home 
 We used home distribution data from the past 25 years to determine the best Distributors to align with should you like to focus on home releases. The data indicates that the more movies that are made the more money Developers stand to make. The research shows that Developers making between 600 and 1300 movies stand to make up to 9 billion dollars between 1995 and 2020. The only outlier is DIsney, which made 10 billions dollars with 388 movies made in a 20 year period. 
 ![graph5](./data/images/home_distribution_chart.png)
 
-#### Balance in Home Distribution and Theatrical Distribution
+#### Home Distribution & Theatrical Distribution
 We also compared the distributor's home distribution to their theatrical distribution. We compared Warner Bros., Sony Pictures, Universal, 20th Century Fox, Paramount Pictures, Lionsgate, and New Line. New line being the only company to make less then the above mentioned 600 movies. The data shows that Warner Bros. home distribution and theatrical distribution have big disparities in revenue compared to the other distribution companies. The other companies have shown similar balance to their distribution for home release and theater release. 
 ![graph4](./data/images/home_distribution_v_theater_distribution_chart.png)
 
