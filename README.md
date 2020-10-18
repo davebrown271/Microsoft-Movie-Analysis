@@ -58,8 +58,6 @@ Thinking about the movie industry from a business perspecitive, we thought it wo
 
 After doing a bit of research, the team was able to find data on the top distribution companies. One showed their box office total, ticket sales, and overall market share. The other gave the lifetime gross for each of the top 500 films of all time. Using this data, we evualated each of distribution company in order to find the most appealing partner for Microsoft.
 
-Please note, the Walt Disney Corporation was omitted from our findings because they own the movie studios and distribute their own films.
-
 #### Market Share
 Looking at one of the tables, we found that five distribution firms stood among the rest in total market share. These companies had the highest overall market share in the industry.
 ![graph1](./data/images/market_share_per_distributor.png)
@@ -120,28 +118,31 @@ Based on this data, we recommend producing a PG-13 rated movie as this comprised
 
 
 ## Conclusion
-In conclusion, we recommend that if Microsoft decides to do theatrical releases they use Universal, 20th Century Fox, or Paramount as their distribution company in order to make the best profit in theaters. Should they decide to do home distribution we also recommend the home distribution division of these companies but we also recomend Sony Pictures. For all of these distribution companies we recomend that they lean towards PG-13 movies. We also recommend that they make films in the following genres; Action/adventure, comedy, or drama. 
+In conclusion, we recommend that if Microsoft partners with Universal, 20th Century Fox, or Paramount as their distribution company in a theatrical release in order to maximize revenue. Should they decide to go straight to home distribution, we also recommend these companies, along with Sony Pictures. Finally, we found that PG-13 movies in the Action & Adventure genre were the preferred movie type of these firms.
 
 ## For More Information
+<<<<<<< HEAD
+Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./microsoft_movie_presentation.pdf).
+=======
 Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./Microsoft Movie Presentation Slides.pdf).
+>>>>>>> edf61631f58bd6ce7e18536df3de4e32b3053102
 
 For any additional questions, please contact David Brown: davebrown271@gmail.com, Angela Joseph-Pauline: angelagjp@gmail.com, & Catherine Fritz: cmfritz0@gmail.com.
 
 
 ## Repository Structure
 
-Describe the structure of your repository and its contents, for example:
-
-```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
-
-Sli
-
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
-
+├── README.md                              <- The top-level README for reviewers of this project
+├── microsoft_movie_presentation.pdf       <- PDF version of project presentation
+├── data                                   <- folder where all code exists
+     ├── movie_data.ipynb                  <- master notebook
+     ├── market_share_table.ipynb          <- additional notebook used for visualizations
+     ├── home_distribution_charts.ipynb    <- additional notebook used for visualizations
+     ├── distribution_boxplot.ipynb        <- additional notebook used for visualizations
+     ├── cats_visualizations.ipynb         <- additional notebook used for visualizations
+     ├── cats_boxofficemojo_data.ipynb     <- additional notebook used for visualizations
+     ├── daves_data.pkl                    <- pkl file used to reconsruct the data
+     ├── cats_bomojo_data.pkl              <- pkl file used to reconsruct the data
+     ├── zipped_data                       <- folder where existing data was stored
+             ├── code_to_unzip_GZ.ipynb    <- notebook where existing data was unzipped
+     ├── images                            <- folder where data visualizations and graphics are located
