@@ -125,7 +125,7 @@ In conclusion, we recommend that if Microsoft decides to do theatrical releases 
 ## For More Information
 Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact David Brown: *Email*, Angela Joseph-Pauline: *Email*, & Catherine Fritz: *Email*.
+For any additional questions, please contact David Brown: davebrown271@gmail.com, Angela Joseph-Pauline: angelagjp@gmail.com, & Catherine Fritz: cmfritz0@gmail.com.
 
 
 ## Repository Structure
