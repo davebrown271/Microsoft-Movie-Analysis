@@ -75,20 +75,20 @@ For filmmakers that prefer large theatrical releases, we found that the top perf
 ### Home Distribution
 
 #### Findings
-We wanted to give Microsoft the oportunity to explore home distribution data. Microsoft might not want to commit to theatrical distribution leaving the home distribution market the perfect area to explore. We found a Data on The Numbers website that showed revenue from this market between 1995 and 2020. The Data was in the form of a chart that we webscraped for our use. 
+We wanted to give Microsoft the opportunity to explore home distribution data. Microsoft might not want to commit to theatrical distribution leaving the home distribution market the perfect area to explore. We found a data chart on The Numbers website that showed revenue from this market between 1995 and 2020. 
 
-Once we were able to apply this data we decided that we should compare the home distribution data with that of the theatrical box office sales. We attempted to find the best home distribution groups that have relatively similar returns. Even if Microsoft decided against theatrical distribution we wanted them to be happy with the profits they stand to make. 
+Once we were able to apply this data we decided that we should compare the home distribution data with that of the theatrical box office sales. We attempted to find the best home distribution companies that have relatively similar returns. Even if Microsoft decided against theatrical distribution we wanted them to be happy with the profits they stand to make. 
 
-#### Home Distrbution 
-We used home distribution data from the past 25 years to determine the best Distributors to align with should you like to focus on home releases. The data indicates that the more movies that are made the more money Developers stand to make. The research shows that Developers making between 600 and 1300 movies stand to make up to 9 billion dollars between 1995 and 2020. The only outlier is DIsney, which made 10 billions dollars with 388 movies made in a 20 year period. 
+#### Home Distribution 
+The data indicates that the more movies that are made the more money Developers make. The research shows that Developers making between 600 and 1300 movies could make up to 9 billion dollars between 1995 and 2020. The only outlier is DIsney, which made 10 billions dollars with 388 movies made in a 20 year period. 
 ![graph5](./data/images/home_distribution_chart.png)
 
 #### Home Distribution & Theatrical Distribution
-We also compared the distributor's home distribution to their theatrical distribution. We compared Warner Bros., Sony Pictures, Universal, 20th Century Fox, Paramount Pictures, Lionsgate, and New Line. New line being the only company to make less then the above mentioned 600 movies. The data shows that Warner Bros. home distribution and theatrical distribution have big disparities in revenue compared to the other distribution companies. The other companies have shown similar balance to their distribution for home release and theater release. 
+We also compared the distributor's home distribution to their theatrical distribution. We compared Warner Bros., Sony Pictures, Universal, 20th Century Fox, Paramount Pictures, Lionsgate, and New Line. New line being the only company to make less then the above mentioned 600 movies. The data shows that Warner Bros.'s home distribution and theatrical distribution have big disparities in revenue compared to the other distribution companies. The other companies have shown similar balance to their distribution for home release and theater release. 
 ![graph4](./data/images/home_distribution_v_theater_distribution_chart.png)
 
 #### Recomendation 
-We Recomand that Microsoft align with Sony Pictures, Universal, 20th Century Fox, or Paramount Pictures. All four of these companies have had over 600 movies between 1995 and 2020. They have also found a balance between releasing their movies at home and in theaters, promising the smallest amount of difference between a home release and a theatrical one. 
+We Recommend that Microsoft align with Sony Pictures, Universal, 20th Century Fox, or Paramount Pictures. All four of these companies have had over 600 movies between 1995 and 2020. They have also found a balance between releasing their movies at home and in theaters, promising the smallest amount of difference between a home release and a theatrical one. 
 
 
 ### Movie Types
@@ -111,12 +111,12 @@ Based on this data, we recommend producing a PG-13 rated movie as this comprised
 
 
 ## Conclusion
-In conclusion, we recommend that if Microsoft decides to do theatrical releases they use Universal, 20th Century Fox, or Paramount as their distribution company in order to make the best profit in theaters. Should they decide to do home distribution we also decomend the home distribution division of these companies but we also recomend Sony Pictures. For all of these distribution companies we recomend that they lean towards PG-13 movies. We also recommend that they make films in the following genres; Action/adventure, comedy, or drama. 
+In conclusion, we recommend that if Microsoft decides to do theatrical releases they use Universal, 20th Century Fox, or Paramount as their distribution company in order to make the best profit in theaters. Should they decide to do home distribution we also recommend the home distribution division of these companies but we also recomend Sony Pictures. For all of these distribution companies we recomend that they lean towards PG-13 movies. We also recommend that they make films in the following genres; Action/adventure, comedy, or drama. 
 
 ## For More Information
 Please review our full analysis in [our Jupyter Notebook](./data/movie_data.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact David Brown, Angela Joseph-Pauline & Catherine Fritz.
+For any additional questions, please contact David Brown: *Email*, Angela Joseph-Pauline: *Email*, & Catherine Fritz: *Email*.
 
 
 ## Repository Structure
